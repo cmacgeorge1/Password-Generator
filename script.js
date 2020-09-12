@@ -109,9 +109,9 @@ function generatePassword() {
   };
 
   for (var i = 0; i < confirmLength; i++) {
-    var allChoices = userChoice[Math.floor(Math.random() * userChoice.confirmLength)];
+    var allChoices = userChoice[Math.floor(Math.random() * userChoice.length)];
     finalPassword = finalPassword + allChoices;
-    console.log(allChoices)
+    console.log(allChoices);
   }
   
   console.log("Password: " + finalPassword);
