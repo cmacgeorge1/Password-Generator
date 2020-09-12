@@ -12,4 +12,4 @@ Live: https://cmacgeorge1.github.io/Password-Generator/
 
 # Site Screenshot
 
-![About]()
+![About](https://github.com/cmacgeorge1/Password-Generator/blob/master/img/page_screenshot.png?raw=true)
