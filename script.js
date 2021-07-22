@@ -20,7 +20,7 @@ var random = Math.floor(Math.random());
 // Starting the function of the button
 function generatePassword() {
   var finalPassword = ""
-  confirmLength = prompt("How many characters do you want your PW to be? Must be b/t 8 and 128");
+  confirmLength = prompt("How many characters do you want your password to be? Must be between 8 and 128");
   console.log("Password length " + confirmLength)
 
   if(!confirmLength) {
