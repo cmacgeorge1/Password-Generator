@@ -28,14 +28,14 @@ function generatePassword() {
   } 
   // If user does not enter correct criteria
   else if (confirmLength < 8 || confirmLength > 128) {
-    confirmLength = prompt ("Choose b/t 8 and 128");
+    confirmLength = prompt ("Choose between 8 and 128");
     console.log("Password length " + confirmLength);
   } 
   // Prompts
   else {
     confirmNumber = confirm("Would you like to include numbers?");
     console.log("Number" + confirmNumber)
-    confirmUppercase = confirm("would you like this to inclue capital letters?");
+    confirmUppercase = confirm("would you like this to include capital letters?");
     console.log("Uppercase" + confirmUppercase)
     confirmLowercase = confirm("Would you like to include lowercase letters?");
     console.log("Lowercase" + confirmLowercase)
